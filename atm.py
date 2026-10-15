@@ -1,4 +1,4 @@
-bal = 20000.00
+bal = 50000.00
 while(True):
  choice = int(input("Enter your choice :\n" 
  "1. Withdraw\n"
