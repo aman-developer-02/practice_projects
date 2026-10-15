@@ -17,7 +17,7 @@ while(True):
      amount = float(input("Enter Amount to deposit(less than 25000):"))
      if(amount<=0.0):
          print("Invalid amount!")
-     elif(amount<25000.00):
+     elif(amount<=25000.00):
          bal+=amount
          print(f"Amount {amount} is deposited successfully")
          print("Current balance:", bal)
@@ -25,3 +25,4 @@ while(True):
          print("Deposit of amount more than 25000 is not allowed through ATM")
  else:
      print("Please Enter a Valid Choice")
+     
